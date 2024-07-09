@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Set up your OpenAI API key
-openai.api_key = 'sk-proj-lViuSNx01yJaw0WixdIiT3BlbkFJDt4XMpMP7YcbJI90zC0K'
+openai.api_key = 'open-ai-key'
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///travel_packages.db'
 db = SQLAlchemy(app)
